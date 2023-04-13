@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --main-color: #00b289;
+    --font-color:#4c4d5f;
+    --yellow-color:#f8db62;
+    --white-color:#fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.navbar-middle-div{
+    display: flex;
+    gap:3rem;
+}
+.logo{
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.navbar-middle-div a{
+    color:var(--font-color);
+    text-decoration: none;
+}
+button{
+    font-size: 1rem;
+    padding: 0.3rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.log-in-btn{
+    background-color: var(--white-color);
+    border: 1px solid var(--main-color);
+    color:var(--main-color);
+}
+.log-in-btn:hover{
+    background-color: var(--main-color);
+    border: 1px solid var(--white-color);
+    color:var(--white-color);
+    transition: 0.5s;
+}
+.start-btn{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: 1px solid var(--main-color);
+}
+.dropdown{
+    overflow: hidden;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+    top:60px;
+    left:0;
+    width: 100%;
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+    gap: 20rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.pricing-card-lowersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    color: var(--font-color);
+    
+}
+.pricing-card{
+    box-shadow: 0px 0px 1px 0px;
+    width: 30rem;
+    height: 45rem;
+}
+.pricing-card h3{
+    font-weight: 500;
+    padding: 2rem 1rem 0rem 2rem;
+}
+.pricing-card h2{
+    padding: 1rem 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-bottom: 3px solid var(--main-color);
+}
+.pricing-card h2 span{
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 10px 0 7px;
+}
+.pricing-card p{
+    padding: 1rem 4rem;
+}
+.pricing-card p i{
+    color: var(--main-color);
+}
+.subscribe-btn{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: 1px solid var(--main-color);
+    padding: 1rem 3rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
