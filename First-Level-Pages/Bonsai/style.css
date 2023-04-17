@@ -276,10 +276,10 @@ padding-bottom: 3rem;
     position: relative;
     width: 50rem;
     box-shadow: 0 0 1px 0 rgba(0,0,0,0.25);
+    cursor: pointer;
 }
 .FAQ div p {
     font-size: 1.25rem;
-    cursor: pointer;
     color: var(--font-color);
 }
 .FAQ div p i{
@@ -290,14 +290,9 @@ padding-bottom: 3rem;
 .dropdown-question{
     overflow: hidden;
 }
-.dropdown-answer{
-    display: none;
-}
 .dropdown-answer h3{
     font-size: 1rem;
-}
-.clicked-answer{
-display: block;
+    text-align: center;
 }
 footer{
     display: flex;
