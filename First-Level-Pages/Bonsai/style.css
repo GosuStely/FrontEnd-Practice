@@ -135,12 +135,20 @@ button{
 .pricing-card p i{
     color: var(--main-color);
 }
+.new{
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+    margin-left: 0.5rem;
+    padding: 0.125rem;
+    font-size: 0.8rem;
+    border-radius: 0.25rem;
+}
 .subscribe-btn{
     background-color: var(--main-color);
     color: var(--white-color);
     border: 1px solid var(--main-color);
     padding: 1rem 3rem;
-    margin-left: 8rem;
+    margin-left: 9rem;
     margin-top: 2rem;
 }
 .toggle{
@@ -180,4 +188,110 @@ button{
 }
 .toggle-input:checked ~ .toggle-fill::after{
     transform: translateX(40px);
+}
+.bonus-option-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bonus-option-section h3{
+    color: var(--font-color);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.bonus-option-section-options{
+    padding: 0.5rem 3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+    color: var(--font-color);
+    height: 5rem;
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.bonus-option-section-options:hover{
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,1)
+}
+.bonus-option-section-options-right h2{
+    text-align: end;
+    font-size: 2rem;
+}
+.bonus-option-section-options-left h4{
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.bonus-option-section-options-left p {
+    font-family: 200;
+    font-size: 0.85rem;
+}
+.bonus-option-section-options-left a{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 500;
+}
+.subscribe-section{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.subscribe-section div h1{
+font-size: 2.5rem;
+font-weight: 500;
+margin-right: 7rem;
+}
+.subscribe-section div h1 span{
+    color: var(--main-color);
+}
+.subscribe-section button{
+    padding: 1rem 3rem;
+}
+.FAQ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.FAQ h3{
+color: var(--main-color);
+font-weight: 300;
+font-size: 2rem;
+text-align: center;
+}
+.FAQ > div > div{
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 50rem;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.25);
+}
+.FAQ div p {
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: var(--font-color);
+}
+.FAQ div p i{
+    position: absolute;
+    right: 1rem;
+    font-size: 2rem;
+}
+.dropdown-question{
+    overflow: hidden;
+}
+.dropdown-answer{
+    display: none;
+}
+.dropdown-answer h3{
+    font-size: 1rem;
+}
+.dropdown-question:hover .dropdown-answer{
+display: block;
 }
