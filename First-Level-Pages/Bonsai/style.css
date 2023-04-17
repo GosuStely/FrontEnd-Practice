@@ -267,6 +267,9 @@ font-size: 2rem;
 text-align: center;
 padding-bottom: 3rem;
 }
+.FAQ > div{
+    height: 35rem;
+}
 .FAQ > div > div{
     padding: 1rem 2rem;
     margin-bottom: 1rem;
@@ -293,6 +296,25 @@ padding-bottom: 3rem;
 .dropdown-answer h3{
     font-size: 1rem;
 }
-.dropdown-question:hover .dropdown-answer{
+.clicked-answer{
 display: block;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+footer h4{
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+footer p{
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+footer p:hover{
+    text-decoration: underline;
 }
