@@ -1,31 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: ;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Source Serif Pro', serif;
 }
-body{
-    font-family: 'Source Serif Pro', serif;
+body {
+  color: #ffffff;
 }
-:root{
-    --background-color: #e8e5e480;
-    --header-color:#000000;
-    --par-color:#7f7f7f;
+:root {
+  --background-color: #e8e5e480;
+  --header-color: #000000;
+  --par-color: #7f7f7f;
 }
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-nav{
-    margin-top: 2rem;
-    background-color: var(--background-color);
-    padding: 1rem;
-    border-radius: 2rem;
+nav {
+  margin-top: 2rem;
+  background-color: var(--background-color);
+  padding: 1rem;
+  border-radius: 2rem;
+  width: 23rem;
 }
-nav a{
-    text-decoration: none;
-    color: var(--header-color);
-    font-size: 1.250rem;
-    padding: 2rem;
+nav a {
+  text-decoration: none;
+  color: var(--header-color);
+  font-size: 1.25rem;
+  padding: 2rem;
+}
+#special {
+  background-color: #ffffff;
+  border-radius: 20rem;
+  padding: 0.7rem 1.5rem;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+.heading {
+  width: 50rem;
+  margin-bottom: 5rem;
+}
+.heading h2 {
+  text-align: center;
+}
+main h2 {
+  color: #000000;
+  font-size: 5rem;
+  font-weight: 400;
+}
+.options a {
+  background-color: #e8e5e480;
+  text-decoration: none;
+  color: #000000;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+.picture-grid {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem 6rem;
+}
+img {
+  height: 60rem;
+  width: 50rem;
+  border-radius: 3rem;
 }
