@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: ;
+}
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+:root{
+    --background-color: #e8e5e480;
+    --header-color:#000000;
+    --par-color:#7f7f7f;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    margin-top: 2rem;
+    background-color: var(--background-color);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: var(--header-color);
+    font-size: 1.250rem;
+    padding: 2rem;
+}
