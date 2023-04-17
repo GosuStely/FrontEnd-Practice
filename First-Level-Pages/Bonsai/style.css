@@ -265,6 +265,7 @@ color: var(--main-color);
 font-weight: 300;
 font-size: 2rem;
 text-align: center;
+padding-bottom: 3rem;
 }
 .FAQ > div > div{
     padding: 1rem 2rem;
