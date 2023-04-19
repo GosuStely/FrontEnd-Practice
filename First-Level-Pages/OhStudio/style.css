@@ -28,7 +28,7 @@ nav a {
   text-decoration: none;
   color: var(--header-color);
   font-size: 1.25rem;
-  padding: 2rem;
+  padding: 0rem 2rem;
 }
 #special {
   background-color: #ffffff;
@@ -137,4 +137,12 @@ footer div p {
   color: #000000;
   padding: 1rem;
   cursor: pointer;
+}
+@media (max-width: 600px) {
+  nav a {
+    padding: 0rem 1.5rem;
+  }
+  main {
+    margin-top: 5rem;
+  }
 }
