@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+:root {
+  --main-white: #fff;
+  --main-color: #04ddb2;
+  --main-heading: #333;
+  --secondary-color: #767676;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 4rem;
+}
+.logo span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.logo i {
+  font-size: 1.5rem;
+}
+nav {
+  display: flex;
+  gap: 2rem;
+}
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.special {
+  color: var(--main-heading);
+}
+header button {
+  background-color: var(--main-color);
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: none;
+  color: var(--main-white);
+}
+main {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30rem;
+}
+main div h1 {
+  font-size: 4rem;
+}
+main div h1 span {
+  color: var(--main-color);
+}
+main div p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--main-heading);
+}
+.video {
+  margin-top: 5rem;
+  padding: 2.5rem 6rem;
+  background-color: rgb(236, 233, 233);
+  border-radius: 2rem;
+}
+.video iframe {
+  border-radius: 2rem;
+}
+.download-section {
+  margin-top: 5rem;
+}
+.download-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.download-section div h2 {
+  font-size: 4rem;
+}
+.download-section div button {
+  margin-top: 2rem;
+  background-color: var(--main-color);
+  padding: 0.7rem 2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: none;
+  color: var(--main-white);
+}
