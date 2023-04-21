@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  pointer-events: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  border-radius: 2rem;
+  background-color: rgb(201, 195, 195);
+  gap: 8rem;
+}
+.main {
+  width: 600px;
+  height: 240px;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.price-table-container {
+  width: 25%;
+  height: 100%;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.6s;
+  pointer-events: all;
+}
+.price-table-type {
+  background-color: rgb(22, 198, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px 0;
+  border-radius: 1rem 1rem 0 0;
+  transition: 0.6s;
+}
+.price-table-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.price-table-price h3 {
+  font-size: 2rem;
+}
+.price-table-price span {
+  color: gray;
+}
+.price-table-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 3rem;
+}
+.price-table-footer .text1 {
+  background-color: gray;
+  width: 100px;
+  height: 3px;
+}
+.price-table-footer .text2 {
+  background-color: gray;
+  width: 80px;
+  height: 3px;
+}
+.price-table-footer .text3 {
+  background-color: gray;
+  width: 100px;
+  height: 3px;
+}
+.price-table-footer .text4 {
+  background-color: gray;
+  width: 80px;
+  height: 3px;
+}
+.price-table-container:hover {
+  transform: scale(1.2);
+}
+.price-table-container:hover .price-table-type {
+  background-color: rgb(22, 158, 241);
+}
+.price-table-container:hover .price-table-price span,
+.price-table-container:hover .price-table-price h3 {
+  color: rgb(22, 198, 241);
+  transition: 0.6s;
+}
+.section {
+  background-color: white;
+  margin: 2rem;
+  border-radius: 2rem;
+  padding-top: 1rem;
+}
+#users {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 2.8rem;
+}
+#gb {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 2.8rem;
+}
+#project {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 2.8rem;
+}
+.empty-bar {
+  background-color: gray;
+  width: 460px;
+  height: 8px;
+  margin: 0 2rem 0.8rem 2rem;
+  border-radius: 3px;
+  position: relative;
+}
+.bar {
+  background-color: rgb(22, 198, 241);
+  height: 8px;
+  border-radius: 3px;
+  position: absolute;
+  z-index: 1;
+  transition: 0.6s;
+}
