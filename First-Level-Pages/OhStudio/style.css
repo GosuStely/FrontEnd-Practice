@@ -23,17 +23,19 @@ nav {
   padding: 1rem;
   border-radius: 2rem;
   width: 23rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 nav a {
   text-decoration: none;
   color: var(--header-color);
   font-size: 1.25rem;
-  padding: 0rem 2rem;
+  padding: 0.7rem 2rem;
 }
 #special {
   background-color: #ffffff;
   border-radius: 20rem;
-  padding: 0.7rem 1.5rem;
 }
 main {
   display: flex;

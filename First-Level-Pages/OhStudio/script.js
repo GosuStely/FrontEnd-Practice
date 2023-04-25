@@ -1,15 +1,6 @@
-let navbarLinkElements = document.getElementsByClassName('navbar-a');
+const navbarLinkElements = document.querySelectorAll('.navbar-a');
 
-for (let index = 0; index < navbarLinkElements.length; index++) {
-  const element = navbarLinkElements[index];
-  element.addEventListener('mouseenter', GiveId);
-  element.addEventListener('mouseleave', RemoveId);
-
-  function GiveId() {
-    // element.setAttribute('id', 'special');
-    element.id = 'special';
-  }
-  function RemoveId() {
-    element.removeAttribute('id');
-  }
-}
+navbarLinkElements.forEach(links => {
+  links.addEventListener('mouseenter', () => (links.id = 'special'));
+  links.addEventListener('mouseleave', () => links.removeAttribute('id'));
+});
