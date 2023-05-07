@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <div>
+          <label for="day">day</label>
+          <input type="number" name="" id="day" placeholder="DD" />
+          <span id="valid-day">Must be a valid day</span>
+        </div>
+        <div>
+          <label for="month">month</label>
+          <input type="number" name="" id="month" placeholder="MM" />
+          <span id="valid-month">Must be a valid month</span>
+        </div>
+        <div>
+          <label for="year">year</label>
+          <input type="number" name="" id="year" placeholder="YYYY" />
+          <span id="valid-year">Must be a valid year</span>
+        </div>
+      </div>
+      <div class="line">
+        <button><i class="bx bxs-chevrons-down"></i></button>
+      </div>
+      <div class="output-container">
+        <div>
+          <span id="year-span">- - </span>
+          <p>Years</p>
+        </div>
+        <div>
+          <span id="month-span">- - </span>
+          <p>Months</p>
+        </div>
+        <div>
+          <span id="day-span">- - </span>
+          <p>Days</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
